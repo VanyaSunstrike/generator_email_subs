@@ -12,7 +12,7 @@ const INITIAL_FIELDS: SignatureFields = {
   company: "ProCraft",
   site: "procraft.es",
   color: "#F9BF3C",
-  logo: "/Logo_big.png",
+  logo: "https://generator-email-subs-b8gh.vercel.app/Logo_big.png",
   tagline: "",
   name: "Elena Cabrera",
   title: "Gerente de Ventas",
