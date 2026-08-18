@@ -1,0 +1,36 @@
+:root {
+  --yellow: #f9bf3c;
+  --yellow-dim: #d8a52e;
+  --ink: #1d1d1b;
+  --ink2: #201f1b;
+  --bronze: #896d2b;
+  --bronze-lt: #b79a5e;
+  --panel: #2a2823;
+  --panel-2: #302e28;
+  --field: #211f1a;
+  --line: #403c33;
+  --text: #f3efe4;
+  --muted: #b0a688;
+  --radius: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: var(--text);
+  background: radial-gradient(140% 120% at 100% -10%, #26241d 0%, var(--ink2) 45%, var(--ink) 100%);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding: 30px 20px 70px;
+  min-height: 100vh;
+}

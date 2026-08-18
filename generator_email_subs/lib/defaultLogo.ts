@@ -1,0 +1,4 @@
+// Плейсхолдер-логотип, який показуємо лише в прев'ю, якщо користувач ще не вставив свій URL.
+// У реальний HTML підпису (експорт/копію) він НЕ потрапляє — Gmail/Outlook все одно не показують data-URI картинки.
+export const DEFAULT_LOGO =
+  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAB2CAYAAAAQnEB/AABPwUlEQVR42u29d5hdV3nv/1lr73369FGxiiUXSZZxxb3QjGnGBtNrboDk/kICKSShJrk3F5LcJCS05GK4SZxAuOFysQPYBkwwJbZxt+QiW7Z6r6Opp+221u+PtfdoZCzN2fuckWbk/T7PYGPpzD5rr7Xe71u/r1iyZJFHJplkoi0pxHhdDd//paUHVp1ePKtZD5RAyOzVZJJJJjMhthDCyV5DJpmAEALQOSFwkDiAlhKRvZlMMslkRgA4ewWZZGI8YEAAWms02vw3rTMAziSTTGZGsvBaJplkkkkmmWQAnEkmmWSSSSYZAGeSSSaZZJJJJhkAZ5JJJplkkkkGwJlkkkkmmWSSSQbAmWSSSSaZZJIBcCaZZJJJJplkkgFwJplkkkkmmWQAnEkmmWSSSSaZZACcSSaZZJJJJplkAJxJJplkkkkmGQBnkkkmmWSSSQbAmWSSSSaZZJJJBsCZZJJJJplkclJJNg0pk0yMPN/oISGyYUOZZJLJDAJwmL2GTDJBRyCsEEKhtUIQKnQWJcokk0xmRP5/jE2Lv23IFZoAAAAASUVORK5CYII=";
